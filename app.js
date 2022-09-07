@@ -6,7 +6,7 @@ const path = require("path");
 
 
 app.get("/", (req, res) => {
-    res.sendFile("index.html");
+    res.sendFile("views/index.html");
 });
 
 
